@@ -1,0 +1,189 @@
+#title{
+  background-color: #ffc868
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+
+.title-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.fab fa-windows{
+  padding: 1px;
+}
+.fabfa-apple{
+      margin-right: 5px;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+/* Navigation Bar */
+.navbar{
+padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-family:  "Montserrat-light";
+  font-size: 1.2rem;
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* Downlad Buttons */
+
+.Downlaod-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*
+Titile Image  */
+
+.titile-image{
+  width: 60%;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-left: 20%;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/*
+Features Section */
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.featur-box{
+text-align: center;
+padding: 5%;
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+  font-size: 1.60rem;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ffc868;
+}
+
+
+
+  /* <!-- Testimonials --> */
+
+  #testimonials{
+    text-align: center;
+    font-family: "Montserrat-Black";
+    background-color:#f1f1b0;
+  }
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  border-radius: 200%;
+  width: 10%;
+  margin: 20px;
+}
+/* press-section */
+
+#press{
+background-color:#f1f1b0;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+  /* <!-- Pricing --> */
+
+  #pricing{
+
+padding:60px;
+text-align: center;
+  }
+
+  .pricing-col{
+    padding: 3% 3%;
+  }
+
+  @media (max-width:1028px){
+.titile-image{
+position: static;
+transform: rotate(0);
+
+}
+
+.title-heading{
+text-align: center;
+}
+
+
+  }
+
+
+#cta{
+  background:#ffc868;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.last-heading{
+  padding:0px 0px 30px;
+  font-family: "Montserrat-bold";
+  font-size: 45px;
+}
+
+.last-button{
+  padding: 0px 20px 0px;
+}
+
+.dd-btn{
+  margin:0px 12px 0px;
+}
+
+.myicon{
+  padding: 0px 10px;
+}
